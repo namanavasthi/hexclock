@@ -13,6 +13,7 @@ export class ClockComponent implements OnInit {
   d:any;
   ctime: CurrTime;
   x:number = 1;
+  interval: any;
 
   // function refreshData()
   // {
