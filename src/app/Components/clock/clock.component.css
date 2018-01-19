@@ -1,0 +1,28 @@
+.background {
+  height: 105vh;
+  width: 110%;
+  margin-left: -1em;
+  margin-top: -1em;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+p#hex {
+  color: white;
+  font-family: 'Lato', Helvetiva, Arial, sans-serif;
+  text-align: center;
+  font-size: 4.5em;
+  display: block;
+  min-width: 200px;
+  font-weight: 100;
+}
